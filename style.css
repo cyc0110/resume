@@ -1,0 +1,285 @@
+/* *{
+  border: solid 1px black;
+} */
+
+/* 複寫區 */
+body{
+  display: flex;
+  justify-content: center;
+  background-color: #213B8D;
+  color: #EAC771;
+  padding: 8%;
+  font-family: "思源黑體",sans-serif;
+  font-size: 1.3vmin;
+  line-height: 150%;
+  letter-spacing: 0.2vmin;
+}
+
+hr{
+  border: none;
+  border-bottom: solid 2px #EAC771;
+  width: 90%;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+a{
+  color: #EAC771;
+  text-decoration: none;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+/* text */
+h1{
+  margin: 0;
+  margin-bottom: 3vmin;
+  font-size: 5vmin;
+  font-weight: 400;
+  letter-spacing: 1vmin;
+}
+
+h2{
+  margin: 0;
+  margin-bottom: 0.4vmin;
+  font-size: 1.7vmin;
+  font-weight: 400;
+}
+
+h2::before{
+  content:"";
+  display: inline-block;
+  width: 0.5vmin;
+  height: 0.5vmin;
+  border-radius: 1000px;
+  background-color: #EAC771;
+  margin-right: 0.5vmin;
+}
+
+h4{
+  margin: 0;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  padding-right: 32%;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+
+/* class區 */
+.resume{
+  display: flex;
+  flex-direction: column;
+  max-width: 950px;
+  border: solid 6px;
+  border-radius: 10px;
+  padding: 2%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px rgb(19, 34, 76,0.2);
+  transition: 0.5s;
+}
+
+.resume:hover{
+  box-shadow: 0px 0px 20px 20px rgb(19, 34, 76,0.7);
+  transform: translate(-4px,-4px);
+}
+
+.block{
+  margin-bottom: 10%;
+}
+
+.footer,.bottom{
+  display: flex;
+  padding: 2%;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+}
+
+.left{
+  flex: 5;
+  padding-left: 2%;
+  padding-right: 4%;
+  border-right: solid 2px #EAC771;
+}
+
+.right{
+  flex: 6;
+  padding-left: 6%;
+}
+
+.avatar{
+  width: 20vmin;
+  height: 20vmin;
+  background-image: url(https://github.com/cyc0110/resume/blob/main/avatar2.png?raw=true);
+  background-size: cover;
+  background-color: #f9f5f2;
+  border: solid 3px #EAC771;
+  border-radius: 1000px;
+  margin-left: 4%;
+  margin-right: 4%;
+  box-shadow:  1vmin -1vmin #EAC771;
+}
+
+.name{
+  padding-left: 2%;
+  
+}
+
+.buttons{
+  padding: 2%;
+  margin-right: 8%;
+}
+
+.btn{
+  margin-right: 2%;
+  padding: 2% 4%;
+  border: solid 1px #EAC771;
+  border-radius: 50px;
+}
+
+.btn.fill{
+  background-color: #213B8D;
+  color: #EAC771;
+  transition: 0.5s;
+}
+
+.btn.fill:hover{
+  background-color: #EAC771;
+  color: #213B8D;
+}
+
+/* listSkill */
+.listSkill{
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 140%;
+}
+
+.listSkill li{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  padding: 2.5%;
+  margin: 2.4%;
+  box-sizing: border-box;
+  border: solid 1px #EAC771;
+  border-radius: 50px;
+  box-shadow:  2px 3px #EAC771;
+}
+
+/* list Program */
+.listProgram .bar{
+  width: 18vmin;
+  height: 1vmin;
+  border: solid 1px #EAC771;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.listProgram .bar:hover{
+  transform: translate(-2px,-2px);
+}
+
+.listProgram li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 8%;
+  padding-top: 6%;
+}
+
+.value{
+  height: 100%;
+  background-color: #EAC771;
+}
+
+.value.p10{
+  width: 10%;
+}
+.value.p20{
+  width: 20%;
+}
+.value.p30{
+  width: 30%;
+}
+.value.p40{
+  width: 40%;
+}
+.value.p50{
+  width: 50%;
+}
+.value.p60{
+  width: 60%;
+}
+.value.p70{
+  width: 70%;
+}
+.value.p80{
+  width: 80%;
+}
+.value.p90{
+  width: 90%;
+}
+.value.p100{
+  width: 100%;
+}
+
+.contact{
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  padding: 2%;
+  padding-left: 6%;
+  border: solid 1px #EAC771;
+}
+
+.info li{
+  display: flex;
+  align-items: center;
+  padding: 1%;
+}
+
+.icon{
+  size: 0.5%;
+  margin-right: 2%;
+}
+
+/* listExperience */
+.listExperience>li{
+  margin-bottom: 12%;
+}
+
+.listExperience li ul{
+  padding-left: 4%;
+  margin-left: 2%;
+  border-left: solid 4px #EAC771;
+}
+
+.decoration{
+  width: 64vmin;
+  height: 10vmin;
+  background: linear-gradient(135deg,#f2ddae,#EAC771);
+  border-radius: 100px 0 0 100px;
+  position: absolute;
+}
+
+.type1{
+  transform: rotate(-30deg);
+  top: -4%;
+  right: -46%;
+}
+
+.type2{
+  transform: rotate(150deg);
+  bottom: -10%;
+  right: 16%;
+}
