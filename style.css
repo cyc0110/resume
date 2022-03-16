@@ -37,16 +37,16 @@ ul{
 h1{
   margin: 0;
   margin-bottom: 3vmin;
-  font-size: 5vmin;
-  font-weight: 500;
+  font-size: 6vmin;
+  font-weight: 600;
   letter-spacing: 1vmin;
 }
 
 h2{
   margin: 0;
   margin-bottom: 0.4vmin;
-  font-size: 1.7vmin;
-  font-weight: 500;
+  font-size: 2vmin;
+  font-weight: 600;
 }
 
 h2::before{
