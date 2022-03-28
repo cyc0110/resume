@@ -120,8 +120,8 @@ h4{
 }
 
 .avatar{
-  width: 20vmin;
-  height: 20vmin;
+  width: 16vmin;
+  height: 16vmin;
   background-image: url(https://github.com/cyc0110/resume/blob/main/avatar2.png?raw=true);
   background-size: cover;
   background-color: #f9f5f2;
