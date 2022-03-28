@@ -127,8 +127,7 @@ h4{
   background-color: #f9f5f2;
   border: solid 3px #EAC771;
   border-radius: 1000px;
-  margin-left: 4%;
-  margin-right: 4%;
+  margin: 2% 4%;
   box-shadow:  1vmin -1vmin #EAC771;
 }
 
@@ -175,7 +174,7 @@ h4{
   padding: 2.5%;
   margin: 2.4%;
   box-sizing: border-box;
-  border: solid 1px #EAC771;
+  border: solid 2px #EAC771;
   border-radius: 50px;
   box-shadow:  2px 3px #EAC771;
 }
